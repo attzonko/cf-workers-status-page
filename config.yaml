@@ -60,7 +60,7 @@ monitors:
     description: 'Plex is a global streaming media service and a client–server media player platform.' # default=empty
     url: 'https://plex.zonkhome.com/' # URL to fetch
     method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
+    expectStatus: 401 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
     
   - id: hass-zonkhome-com # unique identifier
