@@ -39,3 +39,34 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
 
+  - id: duplicati-zonkhome-com # unique identifier
+    name: duplicati.zonkhome.com
+    description: 'Free backup software to store encrypted backups online' # default=empty
+    url: 'https://duplicati.zonkhome.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+
+  - id: adguard-zonkhome-com # unique identifier
+    name: adguard.zonkhome.com
+    description: 'AdGuard Home is a network-wide software for blocking ads & tracking.' # default=empty
+    url: 'https://adguard.zonkhome.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+
+  - id: plex-zonkhome-com # unique identifier
+    name: plex.zonkhome.com
+    description: 'Plex is a global streaming media service and a client–server media player platform.' # default=empty
+    url: 'https://plex.zonkhome.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    
+  - id: hass-zonkhome-com # unique identifier
+    name: hass.zonkhome.com
+    description: 'Home Assistant is free and open-source home automation software.' # default=empty
+    url: 'https://hass.zonkhome.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
