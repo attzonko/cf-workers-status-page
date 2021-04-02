@@ -15,6 +15,14 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
+  - id: bitwarden-zonkhome-com # unique identifier
+    name: bitwarden.zonkhome.com
+    description: 'PVR for TV Shows.' # default=empty
+    url: 'https://bitwarden.zonkhome.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+
   - id: sonarr-zonkhome-com # unique identifier
     name: sonarr.zonkhome.com
     description: 'PVR for TV Shows.' # default=empty
